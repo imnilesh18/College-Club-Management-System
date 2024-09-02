@@ -30,7 +30,7 @@ header .navbar {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header .navbar-header a::first-letter {
+header .navbar-header p::first-letter {
     border-bottom: 2px solid #ecf0f1;
 }
 
@@ -98,7 +98,7 @@ header .navbar-nav a:active {
     background: transparent;
 }
 
-header .navbar-header a {
+header .navbar-header p {
     color: #ecf0f1;
 }
 

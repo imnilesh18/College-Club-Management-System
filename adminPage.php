@@ -13,11 +13,12 @@ $result = mysqli_query($conn,"SELECT * FROM staff_coordinator s ,event_info ef ,
 </head>
     
     <body>
-<?php include 'utils/adminHeader.php'?>
- 
-    
+        <?php require 'utils/styles.php'; ?>
+        <?php include 'utils/adminHeader.php'?>
+        
         <div class = "content">
             <div class = "container">
+            <?php require 'graph.php'; ?>
             <h1>Event details</h1>
             <?php
 if (mysqli_num_rows($result) > 0) {

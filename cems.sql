@@ -80,7 +80,7 @@ INSERT INTO `event_info` (`event_id`, `Date`, `time`, `location`, `duration`) VA
 CREATE TABLE `participantswithmultipleregistrations` (
 `usn` varchar(20)
 ,`name` varchar(100)
-,`branch` varchar(11)
+,`branch` varchar(200)
 );
 
 -- --------------------------------------------------------
@@ -92,7 +92,7 @@ CREATE TABLE `participantswithmultipleregistrations` (
 CREATE TABLE `participent` (
   `usn` varchar(20) NOT NULL,
   `name` varchar(100) NOT NULL,
-  `branch` varchar(11) NOT NULL,
+  `branch` varchar(200) NOT NULL,
   `sem` int(11) NOT NULL,
   `email` varchar(300) NOT NULL,
   `phone` varchar(12) NOT NULL,

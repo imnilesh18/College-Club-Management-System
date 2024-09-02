@@ -1,6 +1,9 @@
-<hr class = "footerline"><!--css modified horizontal line-->
+<hr class="footerline">
+
 <footer>
-    <div class = "container">
-        <h6 style="text-align:center;"> Copyright @ 2024 By: Nilesh Kumar (1CR21CS116)</h6>
+    <div class="container">
+        <h6 style="text-align:center;">
+            Copyright © <?php echo date("Y"); ?> 
+        </h6>
     </div>
 </footer>
