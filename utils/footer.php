@@ -6,7 +6,7 @@
         <div style="flex: 1 1 250px; min-width: 200px;">
             <h4 style="margin-bottom: 15px;">About Us</h4>
             <p style="font-size: 14px; line-height: 1.6;">We are committed to empowering students in exploring emerging technologies in Machine Learning, IoT, Networks, and Data Science (MIND) through various learning opportunities.</p>
-            <p style="font-size: 12px;">&copy; 2024 Navya Shree R. All rights reserved.</p>
+            <p style="font-size: 12px;">&copy; <?php echo date("Y"); ?> Nilesh Kumar. All rights reserved.</p>
         </div>
 
         <!-- Quick Links Section -->
